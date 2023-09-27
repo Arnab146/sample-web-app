@@ -1,0 +1,10 @@
+trigger:
+- main  # Define the branch to trigger the pipeline on (e.g., "main" or "master")
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "Hello, Azure DevOps!"  # Example build step
+
+# Add more build and deployment steps as needed for your application
